@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "ribasal1",
+        "projectKey": "ribasal1_api-code-sample"
+    }
+}

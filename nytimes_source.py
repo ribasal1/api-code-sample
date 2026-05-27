@@ -239,8 +239,8 @@ class NYTimesSource(object):
                     if page == 0:
                         # Bad request on first page - likely invalid params
                         raise ValueError(
-                            f"API returned 400 on first request. "
-                            f"Check query and date parameters."
+                            "API returned 400 on first request. "
+                            "Check query and date parameters."
                         )
                     # Page out of range - end of results
                     log.debug("HTTP 400 on page %s - end of results.", page)
